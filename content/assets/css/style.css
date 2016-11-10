@@ -1,0 +1,841 @@
+/*
+    FONT
+*/
+@font-face{
+  font-family: '1';
+  src:  url('../fonts/montserrat-light-webfont.eot');
+  src:  url('../fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/montserrat-light-webfont.woff2') format('woff2'), 
+        url('../fonts/montserrat-light-webfont.woff') format('woff'), 
+        url('../fonts/montserrat-light-webfont.ttf') format('truetype'), 
+        url('../fonts/montserrat-light-webfont.svg') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face{
+  font-family: '1';
+  src:  url('../fonts/montserrat-regular-webfont.eot');
+  src:  url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/montserrat-regular-webfont.woff2') format('woff2'), 
+        url('../fonts/montserrat-regular-webfont.woff') format('woff'), 
+        url('../fonts/montserrat-regular-webfont.ttf') format('truetype'), 
+        url('../fonts/montserrat-regular-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '1';
+  src:  url('../fonts/montserrat-bold-webfont.eot');
+  src:  url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/montserrat-bold-webfont') format('woff2'), 
+        url('../fonts/montserrat-bold-webfont') format('woff'), 
+        url('../fonts/montserrat-bold-webfont') format('truetype'), 
+        url('../fonts/montserrat-bold-webfont') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*
+    GENERAL
+*/
+.hidden{
+  display: none
+}
+html, body{
+  padding: 0;
+  margin: 0;
+}
+html, body, strong, small, select, input{
+  /background-color: blue;
+  font: 82% '1', sans-serif;
+  font-weight: lighter;
+  color: #6E7474;
+  border-radius: 2px;
+  border: none;
+}
+strong{
+  font-weight: bold
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: '1';
+  font-weight: bolder;
+  margin: 0;
+}
+img, video{
+  max-width: 100%;
+  height: auto;
+}
+ul{
+  list-style-type: none; 
+  margin:0;
+  padding:0;
+}
+a {
+  color: #6E7474;
+}
+
+/*
+    HEADER
+*/
+#header-top{
+  z-index: 20;
+  background-color: #3782a3;
+  color: white;
+  margin: 0 auto;
+  font-size: 0;
+}
+#header-top .content{
+  max-width: 940px;
+  padding: 0.1px 9.11px;
+  margin: 0 auto;
+}
+#img-logo{
+  height: 100%;
+  margin: 9.6px;
+}
+#header-top img{
+  width: 100%;
+}
+#search{
+  position: relative;
+  /top: -3px;
+}
+#edit-search{
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  padding-left: 5px;
+  border-radius: 5px;
+  color: #064460;
+}
+#submit-search{
+  cursor: pointer;
+  text-indent: -10000px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+}
+#search i{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #FF4F2E;
+  font-size: 14px;
+  width: 14px;
+  height: 14px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+#header-top .action{
+  clear: both;
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 12px 0;
+  font-size: 14.4px;
+  height: 38px;
+  width: 100%;
+  /background-color: #064460;
+  /display: block;
+  /display: flex;
+  /padding: 9.666px;
+  /align-items: center;
+  /justify-content: center;
+}
+#header-top .action i{
+  font-size: 14px;
+}
+#menu{
+  /float: left;
+  position: absolute;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 11px 12px 12px;
+  height: 100%;
+  background-color: #064460;  
+  /display: flex;
+  /flex: 0.1;
+  /align-items: center;
+  /justify-content: center;
+}
+#menu span{
+  display: none;
+  /text-indent: -10000px;
+  /background-color: aqua;
+}
+#connecter{
+  /float: right;
+  box-sizing: border-box;
+  padding: 10px 0px 12px 35.23px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: #FF4F2E;
+  text-align: center;
+  /display: flex;
+  /flex: 1;
+  /align-items: center;
+  /justify-content: center;
+}
+
+
+/*
+    CONTENT 1
+*/
+#content1{
+  background-color: #F1F5F6;
+}
+
+/* header-top */
+
+#content1 #header-article{
+  background-color: #064460;
+}
+#content1 .header-top{
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+#content1 .header-top{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 9.11px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+#content1 .kinepolis-slider-list{
+  position: relative;
+}
+#content1 .header-top .button{
+  cursor: pointer;
+  font-size: 24px;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: rgba(41,151,255,0.5);
+}
+#content1 .header-top .button:hover{
+  background-color: rgba(41,151,255,1);
+}
+#content1 .header-top .slider-next{
+  position: absolute;
+  top: 45%;
+  right: 4px;
+  /background-color: aqua;
+}
+#content1 .header-top .slider-prev{
+  position: absolute;
+  top: 45%;
+  left: 4px;
+  /background-color: aqua;
+}
+#content1 .header-top .play{
+  /z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90px;
+  height: 90px;
+  margin: -45px 0 0 -45px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  background: #2997FF;
+  box-shadow: 4px 4px 8px #000;
+}
+#content1 .header-top .play:hover{
+  /z-index: 5;
+  box-shadow: 0 0 80px #fff;
+}
+#content1 .header-top .play .icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 35px;
+  height: 42px;
+  margin: -20px 0 0 -15px;
+  background: url(../img/video-js.png) -100px 0;
+}
+#content1 .header-top .after{
+  /z-index: 20;
+  background-color: #064460;
+  display: flex;
+}
+#content1 .header-top .content-after{
+  flex: 1;
+  text-align: center;
+  flex-wrap : wrap;
+}
+#content1 .header-top .button-after{
+  display: inline-block;
+  background-color: #3782a3;
+  border-radius: 100%;
+  /padding: 0px;
+  width: 24px;
+  height: 24px;
+  margin: 8px 5px;
+}
+#content1 .header-top .button-after img{
+  margin-bottom: 1px;
+}
+#content1 .header-top .button-middle img{
+  margin-bottom: 2.3px;
+}
+#content1 .header-top .text-button{
+  display: inline-block;
+  position: relative;
+  top: -6px;
+  /width: 25%;
+}
+
+/* header-bottom */
+
+#content1 .header-bottom{
+  background-color: #0a5b7f;
+  color: white;
+}
+#content1 .header-bottom .content{
+  max-width: 940px;
+  padding: 0 9.11px;
+  margin: 0 auto;
+}
+#content1 .header-bottom h3{
+  padding: 12px 0 8px;
+  font-size: 18.2px;
+  font-weight: 600;
+}
+#content1 header select{
+  color: #0a5b7f;
+  font-size: 9.6px;
+  padding: 4.93px;
+}
+#content1 .header-bottom select, #content1 .header-bottom label{
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  margin: 10px 0px 5px;
+  font-weight: normal;
+}
+#content1 .header-bottom select{
+  font-size: 9.6px;
+  height: 33.86px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: lighter;
+}
+#content1 .header-bottom p{
+  clear: both;
+  font-size: 12px;
+  line-height: 24px;
+  padding-bottom: 25px;
+  /background-color: aqua;
+}
+
+/* article content */
+
+#content-film{
+  padding: 0 9.11px;
+  max-width: 940px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 24px;
+}
+#content-film h3{
+  font-size: 22.4px;
+  font-family: "montserrat";
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+#content-film #img-cover{
+  box-sizing: border-box;
+  width: 50%;
+  max-width: 175px;
+  padding: 14px 14px 14px 0;
+  float: left;
+}
+#content-film section{
+  clear: both;
+}
+#content-film .table{
+  width: 50%;
+  float: left;
+  /height: 30px;
+}
+#content-film .block{
+  display: block;
+  height: 25px;
+}
+#content-film .h60{
+  height: 50px;
+} 
+#content-film .table-img p{
+  display: inline-block;
+  width: 23%;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-right: calc(8% / 3);
+  line-height: 17px;
+  text-align: center;
+}
+#content-film .table-img p:last-child{
+  margin-right: 0;
+}
+
+/* aside */
+
+#content1 aside{
+  clear: both;
+  background-color: #CBD3D5;
+  font-size: 14px;
+  line-height: 24px;
+}
+#content1 aside .content{
+  max-width: 940px;
+  padding: 9.11px;
+  margin: 0 auto;  
+}
+#content1 aside img{
+  margin-right: 9.11px;
+  margin-bottom: 9.11px;
+}
+#content1 aside h4{
+  color: rgb(6, 68, 96);
+  font-size: 18.2px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 7.8px;
+  margin-top: 30px;
+}
+#content1 aside p{
+  margin-top: 7.8px;
+}
+#content1 aside a{
+  color: #3782a3;
+}
+#content1 aside strong{
+  font-weight: bold;
+  color: #064460;
+  font-size: 14px;
+}
+
+/* footer */
+#content1 #footer{
+  background-color: #0A5B7F;
+  color: white;
+}
+#content1 footer section{
+  max-width: 940px;
+  padding: 9.11px;
+  margin: 0 auto;   
+  display: flex;
+  flex-wrap : wrap;
+  justify-content: center;
+}
+h3{
+  width: 100%;
+  font-size: 18.2px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 9px;
+}
+#content1 footer article .content{
+  padding: 0 7.2px 45px;
+}
+#content1 footer article{
+  position: relative;
+  width: 100%;
+  max-width: 220px;
+  background-color: #FFFFFF;
+  margin-bottom: 40px;
+}
+#content1 footer article a{
+  text-decoration: none;
+  font-size: 14px;
+}
+#content1 footer article small{
+  text-transform: uppercase;
+  color: #3782a3;
+  font-size: 8.4px;
+}
+#content1 footer article .button{
+  cursor: pointer;
+  font-size: 22px;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: #3782a3;
+  float: right;
+  margin: 4px;
+}
+#content1 footer article footer{
+  position: absolute;
+  bottom: 14px;
+  right: 7px;
+}
+
+/*
+    #TODO SLIDESHOW 
+*/
+#Slideshow{
+  padding: 10px 9.11px;
+  background-color: #CBD3D5;
+  /height: 274.3px
+}
+#Slideshow .slider{
+  position: relative;
+}
+#Slideshow .content{
+  max-width: 940px;
+  padding: 9.11px;
+  margin: 0 auto;    
+}
+#Slideshow .button{
+  cursor: pointer;
+  font-size: 24px;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: rgba(41,151,255,0.5);
+  color: #FFFFFF;
+}
+#Slideshow .button:hover{
+  background-color: rgba(41,151,255,1);
+}
+#Slideshow .slider-next{
+  position: absolute;
+  top: 45%;
+  right: 4px;
+  /background-color: aqua;
+}
+#Slideshow .slider-prev{
+  position: absolute;
+  top: 45%;
+  left: 4px;
+  /background-color: aqua;
+}/*
+#Slideshow ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}*/
+#Slideshow img{
+  /flex: 1;
+  /display: inline;
+  width: 50%;
+  float: left;
+}
+#Slideshow .clear{
+  clear: both;
+}
+/*
+    FOOTER PAGE
+*/
+/* TOP */
+#footer-page{
+  background-color: #064460;
+  color: #FFFFFF;
+  text-align: center;
+}
+#footer-page #footer-link{
+  max-width: 940px;
+  padding: 9.11px;
+  margin: 0 auto;    
+}
+#footer-page #footer-link section{
+  margin-bottom: 40px;
+}
+#footer-page a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 10.8px;
+  line-height: 24px;
+
+}
+#footer-page a:hover {
+  color: #FF4F2E;
+}
+#footer-page h3{
+  font-size: 12px;
+}
+#footer-page .button{
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 26px;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: 14px;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+#footer-page .button:hover {
+  color: #FF4F2E;
+  border: 2px solid #FF4F2E;
+}
+#footer-page .button i{
+  padding: 7px;
+}
+#footer-page img{
+  display: block;
+  margin: 15px auto;
+}
+
+/* BOTTOM */
+#footer-page #legal{
+  clear: both;
+  background-color: #F1F5F6;
+}
+#footer-page #legal .content{
+  max-width: 940px;
+  padding: 30px 9.11px;
+  margin: 0 auto;    
+}
+#footer-page #legal a{
+  color: #3782a3;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: underline;
+}
+@media screen and (max-width: 323px){
+  /* Résoudre problèmes de compatibilité avec les très petits écrans */
+  #content-film .table{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    /margin: 0 auto;
+  }
+  #content-film .h60{
+    height: auto;
+  }
+  #content-film .table-img p{
+    width: 100%;
+    
+  }
+}
+/*@media screen and (min-width: 300px){
+}*/
+@media screen and (min-width: 400px){
+  /* header -> menu, le nom "menu" s'affiche */
+  #menu span{
+    display: inline;84
+  }
+  #connecter{
+    padding-left: 84px;
+  }
+  
+  /* footer article (content1), les images vont par deux */
+  #content1 footer section{
+    justify-content: space-between;
+  }
+  #content1 footer article{
+    width: 48%;
+  }
+    
+  /* TODO slideshow, immages défillent par deux */
+  
+  
+  /* footer page, 2 collones */
+  #footer-page #footer-link section{
+    float: left;
+    width: 50%;
+  }
+  #footer-page #legal li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 475px){
+  /* header ALL, on réarange l'entête du site */
+  #img-logo{    
+    width: 170px;
+    height: 42px;
+    float: left;
+  }
+  #search{
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-top: 14.4px;
+  }
+  #connecter{
+    float: right;
+    padding: 10px 20px 12px;
+    width: auto;
+  }
+  
+  /* content1 , on réarange la distribution (acteurs) */
+  #content-film .table-img div{
+    width: 70%;
+    float: left;
+  }
+  #content-film .table-img h4{
+    width: 30%;
+    float: left;
+  }
+  
+  /* footer article (content1), les images vont par trois */
+  #content1 footer article{
+    width: 31%;
+  }
+  
+}
+@media screen and (min-width: 600px){
+  /* select, on les mets tous sur une même ligne */
+  #content1 .header-bottom .select{
+    width: 24%;
+    float: left;
+    margin-right: 1.0%; /* #FUTURE une fois le problème fixé, mettre à 1.33 */
+  }
+  #content1 .header-bottom .select:last-child{ /* #FIXME je n'arrive pas à cibler le dernier enfant */
+    margin: 0;
+    background-color: aqua
+  }
+  #content1 .header-bottom p{
+    position: relative;
+    top: 12px;
+    margin: 0;
+  }  
+  
+  /* content1 , on alligne la distribution (acteurs) essayer les :pair :impair
+  #content-film .table{
+    width: 70%;
+    /background-color: aqua;
+  }
+  #content-film .table[role]{
+    width: 30%;
+    /background-color: aqua;
+  } */
+  
+  /* footer article (content1), les images vont par quatres */
+  #content1 footer article{
+    width: 24%;
+  }
+  
+  /* footer page, 3 collones */
+  #footer-page #footer-link section{
+    width: 33.333%;
+  }
+  #footer-page #footer-link #kinepolisGroup{
+    height: 417px;
+  }
+  #footer-page #footer-link #social{
+    margin-bottom: 15px;
+  }
+  
+}
+@media screen and (min-width: 760px){
+  /* header ALL, on réarange l'entête du site */
+  #header-top .content{
+    position: relative
+  }
+  #img-logo{ 
+    width: 220px;
+    margin-left: 115px;
+    position: relative;
+    top:-2px;
+  }
+  #search{
+    width: 190px;
+    margin-right: 190px;
+    position: absolute;
+    right: 0px;
+    /margin-top: 1px;
+  }
+  #connecter{ 
+    position: absolute;
+    height: auto;
+    right: 0px;
+    top: -50px;
+  }
+  #menu{
+    position: absolute;
+    height: auto;
+    left: 0px;
+    top: -50px;
+  }
+  #header-top .action{
+    position: inherit
+  }
+  #header-top{
+    height: 58.55px;
+  }
+  
+  /* content1 -> side, on le positionne sur le côté droit*/
+  #content1 #content-film{
+    display: inline-block;
+    padding-right: 38.5%;
+    margin: 0 auto;
+  }
+  #content1 .aside-pos{
+    position: relative;
+    max-width: 940px;
+    margin: 0 auto;    
+  }
+  #content1 aside{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 37.5%;
+    /height: 777.6px;
+    /float: right;
+  }
+  #content1 aside .content{
+  }
+  #content1 aside img{
+    display: block;
+  }
+  
+  /* footer article (content1), les images vont par cinq */
+  #content1 footer article{
+    width: 19%;
+  }
+  
+}
+@media screen and (min-width: 960px){
+  #search{
+    width: 30%;
+  }
+
+  /* content1 , on alligne la distribution (acteurs) essayer les :pair :impair */
+  #content-film .table{
+    width: 70%;
+    /background-color: aqua;
+  }
+  #content-film .table[role]{
+    width: 30%;
+    /background-color: aqua;
+  }
+
+  /* footer page, mettre tout sur une collone */
+  #footer-page #footer-link section{
+    width: 16.666667%;
+    text-align: left
+  }
+  #footer-page #footer-link #social{
+    margin-bottom: 130px;
+  }
+  #footer-page #footer-link #followUs{
+    text-align: center
+  }
+}
+
+
+
