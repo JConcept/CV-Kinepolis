@@ -24,6 +24,7 @@ My work is here : http://hepl01.cblue.be/~user18/dw/cv/
   - [ ] A simple slider to the next/previous image
   - [ ] A advandced slider with an auto next slide
   - [ ] A expert slider with a player custom for read video files (as on the Kinepolis website)
+- [ ] Insert in slider bottom my projects.
 - [ ] ...
 
 ## Release History
