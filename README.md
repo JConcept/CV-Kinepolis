@@ -24,11 +24,14 @@ My work is here : http://hepl01.cblue.be/~user18/dw/cv/
   - [ ] A simple slider to the next/previous image
   - [ ] A advandced slider with an auto next slide
   - [ ] A expert slider with a player custom for read video files (as on the Kinepolis website)
+- [ ] Styling the select with __JS__.
 - [ ] Insert in slider bottom my projects.
-- [ ] Correct the problem in hover on slider button. 
+- [ ] Correct the problem in hover on slider button.
+- [ ] Use sprite CSS.
 
 ## Release History
-* **2016/11/10 :** `1.0.0` correction of some bugs and applied the teachers suggestions
+* **2016/12/XX :** `v2.0.0` applied the second teachers suggestions
+* **2016/11/10 :** `v1.0.0` correction of some bugs and applied the teachers suggestions
 * **2016/11/10 :** first upload of project
 * **2016/10/12 :** starting project
 
@@ -50,8 +53,12 @@ My work is here : http://hepl01.cblue.be/~user18/dw/cv/
 ### Second return of my teachers
 >  On 2016/11/23 : second feedback
 
-- [ ] optimiser les images et les utiliser dans leur bonne taille
-- [ ] régler le problème des 404 sur deux polices
+- [x] optimiser les images et les utiliser dans leur bonne taille
+- [x] régler le problème des 404 sur deux polices
 - [ ] dimminuer le nombre de requêtes en utilisant un sprite
-- [ ] combiner les deux feuilles de styles en une seule
-- [ ] intégrer les images dans le thème du site (par exemple, la photo de moi la mettre en page comme une affiche de film)
+- [x] combiner les deux feuilles de styles en une seule
+- [x] intégrer les images dans le thème du site (par exemple, la photo de moi la mettre en page comme une affiche de film)
+- [ ] mettre en style les select avec JavaScript ?
+
+### Third return of my teachers
+>  On 2016/11/29 : third feedback
