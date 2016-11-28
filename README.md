@@ -25,7 +25,7 @@ My work is here : http://hepl01.cblue.be/~user18/dw/cv/
   - [ ] A advandced slider with an auto next slide
   - [ ] A expert slider with a player custom for read video files (as on the Kinepolis website)
 - [ ] Insert in slider bottom my projects.
-- [ ] ...
+- [ ] Correct the problem in hover on slider button. 
 
 ## Release History
 * **2016/11/10 :** `1.0.0` correction of some bugs and applied the teachers suggestions
@@ -34,7 +34,7 @@ My work is here : http://hepl01.cblue.be/~user18/dw/cv/
 
 ## Feedback (in french, sorry)
 ### First return of my teachers
->  On 2016/10/26 : first Feedback
+>  On 2016/10/26 : first feedback
 
 - [x] rectifier le html pour se l'approprier
 - [x] header du doccument mettre quelque chose comme `CV de Lepot Jean-Christophe | Jconcept.be | kinepolis`
@@ -46,3 +46,12 @@ My work is here : http://hepl01.cblue.be/~user18/dw/cv/
 - [x] réaranger le tableau et respecter les règles de proximité
 - [ ] pour le slider du dessous, y mettre par exemple des réalisations
 - [x] __FIXME :__ rélger le problème du pixel blanc au dessus du premier slider
+
+### Second return of my teachers
+>  On 2016/11/23 : second feedback
+
+- [ ] optimiser les images et les utiliser dans leur bonne taille
+- [ ] régler le problème des 404 sur deux polices
+- [ ] dimminuer le nombre de requêtes en utilisant un sprite
+- [ ] combiner les deux feuilles de styles en une seule
+- [ ] intégrer les images dans le thème du site (par exemple, la photo de moi la mettre en page comme une affiche de film)
